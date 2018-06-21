@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- color palette -->
+    <SolidColorBrush x:Key="gray-darker" Color="#222222" />
+    <SolidColorBrush x:Key="gray-dark" Color="#333333" />
+    <SolidColorBrush x:Key="gray" Color="#555555" />
+    <SolidColorBrush x:Key="gray-light" Color="#777777" />
+    <SolidColorBrush x:Key="gray-lighter" Color="#eeeeee" />
+
+    <SolidColorBrush x:Key="brand-primary" Color="#337ab7" />
+    <SolidColorBrush x:Key="brand-success" Color="#5cb85c" />
+    <SolidColorBrush x:Key="brand-info" Color="#5bc0de" />
+    <SolidColorBrush x:Key="brand-warning" Color="#f0ad4e" />
+    <SolidColorBrush x:Key="brand-danger" Color="#d9534f" />
+    
+    <!-- list of brushes -->
+    <SolidColorBrush x:Key="background-normal" Color="#ffffff" />
+    <SolidColorBrush x:Key="background-hover" Color="#ffffff" />
+    <SolidColorBrush x:Key="background-active" Color="#ffffff" />
+    <SolidColorBrush x:Key="background-disable" Color="#eeeeee" />
+    
+    <SolidColorBrush x:Key="foreground-normal" Color="#555555" />
+    <SolidColorBrush x:Key="foreground-hover" Color="#555555" />
+    <SolidColorBrush x:Key="foreground-active" Color="#555555" />
+    <SolidColorBrush x:Key="foreground-disable" Color="#555555" />
+    
+    <SolidColorBrush x:Key="border-normal" Color="#cccccc" />
+    <SolidColorBrush x:Key="border-hover" Color="#cccccc" />
+    <SolidColorBrush x:Key="border-active" Color="#75b9f0" />
+    <SolidColorBrush x:Key="border-disable" Color="#cccccc" />
+    
+</ResourceDictionary>

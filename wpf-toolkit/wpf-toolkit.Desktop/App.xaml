@@ -3,6 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!--<ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Controls/Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Controls/DataGrid.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Controls/TabControl.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Controls/TabItem.xaml" />-->
 
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Themes/Brushes.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Themes/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/wpf-toolkit.Controls;component/Themes/Generic.xaml" />
+                
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

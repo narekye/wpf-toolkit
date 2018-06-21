@@ -9,11 +9,10 @@
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="30" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button Command="{Binding ClickCommand}" Content="Click Me" Width="150" HorizontalAlignment="Left" Margin="5" />
+        <Button Command="{Binding ClickCommand}" Style="{StaticResource btn-success}" Height="30" Content="Click Me" Width="150" HorizontalAlignment="Left" Margin="5" />
 
     </Grid>
 </UserControl>
